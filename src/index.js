@@ -5,12 +5,21 @@ import reportWebVitals from './reportWebVitals';
 import ToDoAPP from './todoList/TodoApp';
 import CounterApp from './counterApp/counterApp';
 import UserProfileCard from './useProfileCard/UserProfileCard';
+import EventHandlingApp from './EventHandlingApp/EventHandlingApp';
+import FormComponent from './ControlledComponentForm/FormComponent';
+import ContactForm from './ContactFormValidation/ContactForm';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <ToDoAPP />
     <CounterApp />
-    <UserProfileCard name ="John" age="30" email="john25@gamil.com"/>
+    <UserProfileCard name ="John" age = "30" email="john25@gamil.com"/>
+    ===Event Handling===
+    <EventHandlingApp/><br/>
+    <br></br>==Form Component===<br/>
+    <FormComponent/>
+    === form Validation ===
+    <ContactForm/>
   </React.StrictMode>
 );
 

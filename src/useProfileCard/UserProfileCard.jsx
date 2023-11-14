@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 
 function UserProfileCard(props){
 
-    return (
+    return(
         <>
            <div>
              <span>name: {props.name}</span> <br/>
