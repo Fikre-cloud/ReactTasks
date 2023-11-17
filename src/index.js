@@ -8,6 +8,8 @@ import UserProfileCard from './useProfileCard/UserProfileCard';
 import EventHandlingApp from './EventHandlingApp/EventHandlingApp';
 import FormComponent from './ControlledComponentForm/FormComponent';
 import ContactForm from './ContactFormValidation/ContactForm';
+import SimpleRouting from './RouterExercises/SimpleRouting';
+import SimpleWebApplication from './RouterExercises/SimpleWebApplication';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -20,6 +22,10 @@ root.render(
     <FormComponent/>
     === form Validation ===
     <ContactForm/>
+    === Routing ===
+    <SimpleRouting/>
+    === Page not found routing===
+    <SimpleWebApplication/>
   </React.StrictMode>
 );
 
